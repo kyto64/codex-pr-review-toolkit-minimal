@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-This file clarifies attribution for public distribution. **The entire repository is licensed under [Apache License 2.0](./LICENSE)** — adapted upstream skills, generated artifacts, and original components alike.
+This file clarifies attribution for public distribution. The repository license is [Apache License 2.0](./LICENSE).
 
 ## Anthropic `pr-review-toolkit` (Derivative Work)
 
@@ -18,12 +18,6 @@ Six review perspective skills are adapted from [anthropics/claude-plugins-offici
 - **Upstream license:** Apache-2.0 ([upstream LICENSE](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/LICENSE))
 - **Upstream NOTICE:** None (confirmed: no `NOTICE` file in upstream `plugins/pr-review-toolkit/`)
 - **Local LICENSE:** Identical Apache-2.0 full text as upstream plugin LICENSE
-
-### Upstream README vs LICENSE
-
-The upstream plugin [LICENSE](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/LICENSE) file is Apache-2.0. The upstream plugin [README](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/README.md) states MIT in its License section; treat that as stale relative to the LICENSE file. **This repository is Apache-2.0 throughout**, following the upstream plugin LICENSE file and using the same Apache-2.0 full text in [LICENSE](./LICENSE).
-
-（日本語）upstream plugin の LICENSE ファイルは Apache-2.0 です。upstream README の License 節に MIT とあるのは LICENSE ファイルと食い違うため、README 側は古い表記として扱います。**本リポジトリは Apache-2.0 に完全統一**しており、upstream plugin の LICENSE ファイルを根拠とします。
 
 Adaptations include converting Claude agent definitions to Codex `SKILL.md`, removing autonomous/subagent-runner dependencies, generalizing project-specific rules to `AGENTS.md`, and review-only constraints (no auto-fix, no sandbox bypass).
 
