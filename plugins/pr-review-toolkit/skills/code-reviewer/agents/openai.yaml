@@ -1,0 +1,6 @@
+interface:
+  display_name: "Code Reviewer"
+  short_description: "Review correctness, security, and maintainability"
+  default_prompt: "$code-reviewer で main...HEAD の変更を正しさ・セキュリティの観点でレビューしてください。"
+policy:
+  allow_implicit_invocation: false

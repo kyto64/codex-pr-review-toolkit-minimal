@@ -1,0 +1,6 @@
+# Codex subagent settings for pr-review parallel mode.
+# See README.md and plugins/pr-review-toolkit/skills/pr-review/SKILL.md.
+
+[agents]
+max_threads = 6
+max_depth = 1

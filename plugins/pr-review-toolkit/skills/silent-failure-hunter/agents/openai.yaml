@@ -1,0 +1,6 @@
+interface:
+  display_name: "Silent Failure Hunter"
+  short_description: "Detect silent failures and weak error handling"
+  default_prompt: "$silent-failure-hunter で main...HEAD のエラー処理を重点的に見てください。"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Code Simplifier"
+  short_description: "Review complexity and clarity without behavior changes"
+  default_prompt: "$code-simplifier で変更部分の複雑さと明瞭さをレビューしてください。"
+policy:
+  allow_implicit_invocation: false

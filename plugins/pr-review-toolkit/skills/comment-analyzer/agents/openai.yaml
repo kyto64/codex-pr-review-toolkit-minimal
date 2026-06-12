@@ -1,0 +1,6 @@
+interface:
+  display_name: "Comment Analyzer"
+  short_description: "Review comment and repository docs factual accuracy"
+  default_prompt: "$comment-analyzer で追加・変更されたコメントとリポジトリ docs の事実確認をレビューしてください。"
+policy:
+  allow_implicit_invocation: false

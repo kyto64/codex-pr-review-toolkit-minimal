@@ -1,0 +1,6 @@
+interface:
+  display_name: "PR Review"
+  short_description: "Unified PR review with P0–P3 findings across six perspectives"
+  default_prompt: "$pr-review でこのブランチの差分をレビューしてください。ベースは main です。"
+policy:
+  allow_implicit_invocation: false

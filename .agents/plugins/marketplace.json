@@ -1,0 +1,20 @@
+{
+  "name": "kyto64-codex-pr-review-toolkit-minimal",
+  "interface": {
+    "displayName": "PR Review Toolkit for Codex"
+  },
+  "plugins": [
+    {
+      "name": "pr-review-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pr-review-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

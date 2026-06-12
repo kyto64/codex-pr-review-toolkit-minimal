@@ -1,0 +1,6 @@
+interface:
+  display_name: "Type Design Analyzer"
+  short_description: "Review type invariants, encapsulation, and enforcement"
+  default_prompt: "$type-design-analyzer で新規・変更された型の不変条件をレビューしてください。"
+policy:
+  allow_implicit_invocation: false

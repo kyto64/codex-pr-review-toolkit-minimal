@@ -1,0 +1,31 @@
+{
+  "name": "pr-review-toolkit",
+  "version": "0.1.0",
+  "description": "Safe, lightweight PR review skills for Codex CLI — fixed perspectives with unified P0–P3 findings.",
+  "author": {
+    "name": "kyto64",
+    "url": "https://github.com/kyto64"
+  },
+  "homepage": "https://github.com/kyto64/codex-pr-review-toolkit-minimal",
+  "repository": "https://github.com/kyto64/codex-pr-review-toolkit-minimal",
+  "license": "Apache-2.0",
+  "keywords": ["pr-review", "code-review", "codex", "codex-cli", "skills", "developer-tools"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PR Review Toolkit for Codex",
+    "shortDescription": "Fixed-perspective PR reviews with unified P0–P3 findings",
+    "longDescription": "Safe, lightweight PR review skills for Codex CLI. Unified review uses the $pr-review skill (plugin name: pr-review-toolkit). Applies fixed perspectives with unified P0–P3 findings. Review-only — no auto-fix, hooks, or sandbox bypass.",
+    "developerName": "kyto64",
+    "category": "Developer Tools",
+    "capabilities": ["Read"],
+    "websiteURL": "https://github.com/kyto64/codex-pr-review-toolkit-minimal",
+    "defaultPrompt": [
+      "$pr-review でこのブランチの差分をレビューしてください。ベースは main です。",
+      "$pr-review で https://github.com/OWNER/REPO/pull/NN をレビューしてください。",
+      "$pr-review で main...HEAD をレビューしてください。適用対象の観点ごとに subagent を並列 spawn し、結果を P0–P3 に統合してください。",
+      "$silent-failure-hunter でエラー処理を重点的に見てください。",
+      "$pr-test-analyzer でテスト網羅のギャップを確認してください。"
+    ],
+    "brandColor": "#10A37F"
+  }
+}
