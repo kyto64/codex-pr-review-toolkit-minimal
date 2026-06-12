@@ -31,7 +31,7 @@ Adaptations include converting Claude agent definitions to Codex `SKILL.md`, rem
 
 ## Original Work in This Repository
 
-The following are original to [kyto64/codex-pr-review-toolkit-minimal](https://github.com/kyto64/codex-pr-review-toolkit-minimal) and are also licensed under Apache-2.0 unless noted otherwise:
+The following are original to [kyto64/codex-pr-review-toolkit-minimal](https://github.com/kyto64/codex-pr-review-toolkit-minimal) and are licensed under Apache-2.0:
 
 | Component | Notes |
 |-----------|-------|
