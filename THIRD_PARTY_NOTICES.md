@@ -19,6 +19,12 @@ Six review perspective skills are adapted from [anthropics/claude-plugins-offici
 - **Upstream NOTICE:** None (confirmed: no `NOTICE` file in upstream `plugins/pr-review-toolkit/`)
 - **Local LICENSE:** Identical Apache-2.0 full text as upstream plugin LICENSE
 
+### Upstream README vs LICENSE
+
+As of the adaptation tracked in this repository, the upstream plugin [README](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/README.md) states MIT in its License section, while the upstream plugin [LICENSE](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/LICENSE) file is Apache-2.0. We do not resolve which upstream statement is authoritative; this repository follows the upstream plugin LICENSE file for attribution and redistribution.
+
+（日本語）upstream README の License 節は MIT と記載されている一方、upstream plugin ディレクトリの LICENSE ファイルは Apache-2.0 です。本リポジトリはどちらが法的に正しいかは断定せず、upstream plugin の LICENSE ファイルに合わせて Apache-2.0 として扱います。
+
 Adaptations include converting Claude agent definitions to Codex `SKILL.md`, removing autonomous/subagent-runner dependencies, generalizing project-specific rules to `AGENTS.md`, and review-only constraints (no auto-fix, no sandbox bypass).
 
 ## Generated Derivative Artifacts

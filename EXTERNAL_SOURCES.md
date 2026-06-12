@@ -9,6 +9,8 @@
 **License:** Apache-2.0 (see [LICENSE](./LICENSE) and upstream [LICENSE](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/LICENSE))  
 **Upstream NOTICE:** None (upstream `plugins/pr-review-toolkit/` に `NOTICE` ファイルは存在しない)
 
+**Note (upstream README vs LICENSE):** upstream [README](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/README.md) の License 節は MIT と記載されている一方、upstream plugin の [LICENSE](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/LICENSE) ファイルは Apache-2.0 です。どちらが法的に正しいかは断定せず、本リポジトリは upstream plugin の LICENSE ファイルに合わせて Apache-2.0 として扱います。詳細は [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) を参照してください。
+
 ## Adapted Skills
 
 以下の Skill は upstream の agent 定義を Codex 向け `SKILL.md` に適応したものです（subagent / autonomous 実行依存を除去し、手動 PR レビュー向けに調整）。
