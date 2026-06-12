@@ -1,6 +1,6 @@
 # External Source Attribution
 
-このリポジトリは PR レビュー Skill のみを保持する最小構成です。ライセンス上の区分は [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) も参照してください。
+このリポジトリは PR レビュー Skill のみを保持する最小構成です。**ライセンスは Apache-2.0 に完全統一**しています（派生 Skill・生成物・独自コンポーネントを含む）。区分の詳細は [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) を参照してください。
 
 ## Primary Source
 
@@ -9,7 +9,7 @@
 **License:** Apache-2.0 (see [LICENSE](./LICENSE) and upstream [LICENSE](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/LICENSE))  
 **Upstream NOTICE:** None (upstream `plugins/pr-review-toolkit/` に `NOTICE` ファイルは存在しない)
 
-**Note (upstream README vs LICENSE):** upstream [README](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/README.md) の License 節は MIT と記載されている一方、upstream plugin の [LICENSE](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/LICENSE) ファイルは Apache-2.0 です。どちらが法的に正しいかは断定せず、本リポジトリは upstream plugin の LICENSE ファイルに合わせて Apache-2.0 として扱います。詳細は [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) を参照してください。
+**Note (upstream README vs LICENSE):** upstream plugin の [LICENSE](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/LICENSE) は Apache-2.0 です。upstream [README](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/README.md) の License 節（MIT 表記）は LICENSE ファイルと食い違うため、README 側は古い表記として扱います。本リポジトリは upstream plugin LICENSE に合わせ、Apache-2.0 に完全統一しています。詳細は [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) を参照してください。
 
 ## Adapted Skills
 

@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-This file clarifies attribution for public distribution. The repository license is [Apache License 2.0](./LICENSE).
+This file clarifies attribution for public distribution. **The entire repository is licensed under [Apache License 2.0](./LICENSE)** — adapted upstream skills, generated artifacts, and original components alike.
 
 ## Anthropic `pr-review-toolkit` (Derivative Work)
 
@@ -21,9 +21,9 @@ Six review perspective skills are adapted from [anthropics/claude-plugins-offici
 
 ### Upstream README vs LICENSE
 
-As of the adaptation tracked in this repository, the upstream plugin [README](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/README.md) states MIT in its License section, while the upstream plugin [LICENSE](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/LICENSE) file is Apache-2.0. We do not resolve which upstream statement is authoritative; this repository follows the upstream plugin LICENSE file for attribution and redistribution.
+The upstream plugin [LICENSE](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/LICENSE) file is Apache-2.0. The upstream plugin [README](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/README.md) states MIT in its License section; treat that as stale relative to the LICENSE file. **This repository is Apache-2.0 throughout**, following the upstream plugin LICENSE file and using the same Apache-2.0 full text in [LICENSE](./LICENSE).
 
-（日本語）upstream README の License 節は MIT と記載されている一方、upstream plugin ディレクトリの LICENSE ファイルは Apache-2.0 です。本リポジトリはどちらが法的に正しいかは断定せず、upstream plugin の LICENSE ファイルに合わせて Apache-2.0 として扱います。
+（日本語）upstream plugin の LICENSE ファイルは Apache-2.0 です。upstream README の License 節に MIT とあるのは LICENSE ファイルと食い違うため、README 側は古い表記として扱います。**本リポジトリは Apache-2.0 に完全統一**しており、upstream plugin の LICENSE ファイルを根拠とします。
 
 Adaptations include converting Claude agent definitions to Codex `SKILL.md`, removing autonomous/subagent-runner dependencies, generalizing project-specific rules to `AGENTS.md`, and review-only constraints (no auto-fix, no sandbox bypass).
 
@@ -37,7 +37,7 @@ Adaptations include converting Claude agent definitions to Codex `SKILL.md`, rem
 
 ## Original Work in This Repository
 
-The following are original to [kyto64/codex-pr-review-toolkit-minimal](https://github.com/kyto64/codex-pr-review-toolkit-minimal) and are also licensed under Apache-2.0 unless noted otherwise:
+The following are original to [kyto64/codex-pr-review-toolkit-minimal](https://github.com/kyto64/codex-pr-review-toolkit-minimal) and are licensed under Apache-2.0:
 
 | Component | Notes |
 |-----------|-------|
